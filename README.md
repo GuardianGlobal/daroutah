@@ -1,2 +1,2 @@
 # rouda
-a small backend framwork
+a simple backend framework
