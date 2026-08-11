@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"sourceMap": true,
+		"declaration": true,
+		"declarationMap": true,
+		"exactOptionalPropertyTypes": true,
+		"strict": true,
+		"verbatimModuleSyntax": true,
+		"isolatedModules": true,
+		"noUncheckedSideEffectImports": true,
+		"moduleDetection": "force"
+	},
+	"paths": {
+		"#src/*": ["./src/*"]
+	},
+	"include": ["src/**/*.ts"],
+	"exclude": ["vitest.config.ts"]
+}

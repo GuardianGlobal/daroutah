@@ -1,0 +1,35 @@
+{
+	"name": "daroutah",
+	"version": "1.0.0",
+	"description": "a http router that traverses route strings to get to the endpoint faster",
+	"main": "dist/app.js",
+	"scripts": {
+		"dev": "npx tsx watch ./src/app.ts",
+		"test": "vitest run",
+		"test:watch": "vitest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/GuardianGlobal/daroutah.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"bugs": {
+		"url": "https://github.com/GuardianGlobal/daroutah/issues"
+	},
+	"imports": {
+		"#src/*": "./dist/*"
+	},
+	"homepage": "https://github.com/GuardianGlobal/daroutah#readme",
+	"devDependencies": {
+		"@types/node": "^26.2.0",
+		"tsx": "^4.23.11",
+		"typescript": "^7.0.2",
+		"vitest": "^4.1.10"
+	},
+	"dependencies": {
+		"zod": "^4.4.3"
+	}
+}
