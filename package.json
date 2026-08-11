@@ -1,7 +1,7 @@
 {
 	"name": "roudah",
 	"version": "1.0.0",
-	"description": "a small backend framework",
+	"description": "a simple backend framework",
 	"main": "dist/app.js",
 	"scripts": {
 		"dev": "npx tsx watch ./src/app.ts",
